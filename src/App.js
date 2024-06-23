@@ -13,8 +13,8 @@ export default function App() {
         <Header />
         <CurrentTemperature />
         <WeatherForecast />
-        <PageFooter />
       </div>
+      <PageFooter />
     </div>
   );
 }

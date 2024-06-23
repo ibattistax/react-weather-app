@@ -3,10 +3,6 @@
   justify-content: space-between;
 }
 
-.weather-app-data strong {
-  color: #c05035;
-}
-
 .weather-app-city {
   margin: 0;
   font-size: 40px;
@@ -32,10 +28,9 @@
 .weather-app-temperature-value {
   font-size: 54px;
   font-weight: bolder;
-  margin: 30px 0 0 20px;
+  margin: 30px 20px 0 20px;
 }
 
 .weather-app-units {
-  margin-top: 30px;
-  margin-left: 0px;
+  margin-top: 45px;
 }

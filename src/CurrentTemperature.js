@@ -24,8 +24,12 @@ export default function CurrentTemperature() {
             </span>{" "}
             | <span id="description">{WeatherData.description}</span>
             <br />
-            Humidity <strong id="humidity">{WeatherData.humidity}</strong>, Wind
-            <strong id="wind-speed"> {WeatherData.windspeed}</strong>
+            <br />
+            <strong>Humidity </strong>
+            <span id="humidity">{WeatherData.humidity}</span>
+            <br />
+            <strong>Wind</strong>
+            <span id="wind-speed"> {WeatherData.windspeed}</span>
           </p>
         </div>
         <div className="weather-app-temperature">
@@ -39,9 +43,7 @@ export default function CurrentTemperature() {
           <div className="weather-app-temperature-value" id="temperature">
             {WeatherData.temperature}
           </div>
-          <div className="weather-app-units">
-            <strong>ºC</strong>
-          </div>
+          <div className="weather-app-units">ºC | ºF</div>
         </div>
       </div>
     </div>
